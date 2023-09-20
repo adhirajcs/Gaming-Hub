@@ -1,7 +1,7 @@
 # Gaming Hub Readme
 
 ## Overview
-Gaming Hub is a web application designed to be your ultimate destination for all things gaming. Whether you're a hardcore gamer or just looking for your next gaming adventure, Gaming Hub has you covered. This web application is built using Django and CSS, providing a seamless and visually appealing experience for users.
+Gaming Hub is a web application designed to be your ultimate destination for all things gaming. Whether you're a hardcore gamer or just looking for your next gaming adventure, Gaming Hub has you covered. This web application is built using Django and SCSS, providing a seamless and visually appealing experience for users.
 
 ## Features
 
