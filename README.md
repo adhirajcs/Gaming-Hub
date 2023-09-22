@@ -37,7 +37,7 @@ We welcome contributions from the open-source community to improve Gaming Hub. I
 4. Create a pull request detailing your changes.
 
 ## Author
-Gaming Hub is created and maintained by [Your Name]. If you have any questions or need assistance, you can reach out to me at [your.email@example.com].
+Gaming Hub is created and maintained by [Adhiraj](https://github.com/adhirajcs).
 
 ---
 
