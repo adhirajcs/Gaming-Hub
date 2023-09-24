@@ -15,15 +15,21 @@
 </div>
 
 <div class="games">
-    <div class="game">
-        <div class="game-thumb-container">
-            <img src="https://i.stack.imgur.com/UWmiI.png" alt="thumbnail" class="game-thumbnail"/>
-        </div>
-        <div class="game-description">
-            <p class="game-name">Name</p>
-            <div class="game-platforms">
-                <img class="game-platform" src="https://i.stack.imgur.com/f4YQD.jpg" alt="slug">
+    <ng-container *ngFor="let game of games">
+        <div class="game" (click)="openGameDetails(game.id)">
+            <div class="game-thumb-container">
+                <img *ngIf="game.background_image" src="{{ game.background_image }}" alt="thumbnail"
+                    class="game-thumbnail" />
+                <p *ngIf="!game.background_image">No image</p>
+            </div>
+            <div class="game-description">
+                <p class="game-name">{{ game.name }}</p>
+                <div class="game-platforms">
+                    <img *ngFor="let gamePlatform of game.parent_platforms" class="game-platform"
+                        src="assets/images/platforms/{{ gamePlatform.platform.slug }}.svg"
+                        alt="{{ gamePlatform.platform.slug }}" />
+                </div>
             </div>
         </div>
-    </div>
+    </ng-container>
 </div>
