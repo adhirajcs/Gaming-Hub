@@ -38,7 +38,7 @@ We welcome contributions from the open-source community to improve Gaming Hub. I
 
 ## Reference
 
-- [Angular 11 Tutorial - Code a Project from Scratch](https://www.youtube.com/watch?v=LiOzTQAz13Q) by [freeCodeCamp.org](https://www.youtube.com/@freecodecamp) - This YouTube tutorial served as the foundational resource for building my WoofBot.
+- [Angular 11 Tutorial - Code a Project from Scratch](https://www.youtube.com/watch?v=LiOzTQAz13Q) by [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
 
 ## Author
 Gaming Hub is created and maintained by [Adhiraj](https://github.com/adhirajcs).
